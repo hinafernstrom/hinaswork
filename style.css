@@ -22,7 +22,7 @@
 
 @font-face {
   font-family: "PP Neue Montreal Book";
-  src: url(/sansserif/PPNeueMontreal-Medium.otf);
+  src: url(https://hina-image-hosting.s3.amazonaws.com/img/sansserif/PPNeueMontreal-Book.otf);
 }
 
 @font-face {
@@ -30,7 +30,7 @@
   src: url(/italic/PPNeueMontreal-Italic.otf);
 }
 
-@font-face {
+/* @font-face {
   font-family: "Junicode";
   src: url(/serif/Junicode.woff);
 }
@@ -41,13 +41,11 @@
 @font-face {
   font-family: "PPmondwest";
   src: url(/glitchfont/PPmondwest-regular.otf);
-  /* src: url('/glitch/font/PPmondwest-regular.otf') format('opentype'); */
 }
 @font-face {
   font-family: "pinyon";
   src: url(/script/PinyonScript-Regular.ttf);
-  /* src: url('/glitch/font/PPmondwest-regular.otf') format('opentype'); */
-}
+} */
 .nav {
   /* background-color: #ffffff; */
   background-color: transparent !important;
