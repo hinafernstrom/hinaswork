@@ -6,31 +6,8 @@
 
 @font-face {
   font-family: "PP Neue Montreal italic";
-  src: url(PPNeueMontreal-Italic.otf);
+  src: url(/italic/PPNeueMontreal-Italic.otf);
 }
-
-@font-face {
-  font-family: "Timezone";
-  src: url(HALTimezoneTest-Regular.otf);
-}
-
-/* @font-face {
-  font-family: "Junicode";
-  src: url(/serif/Junicode.ttf);
-}
-@font-face {
-  font-family: "Junicodeitalic";
-  src: url(/serif/Junicode-Italic.ttf);
-} */
-/* @font-face {
-  font-family: "PPmondwest";
-  src: url(/glitchfont/PPmondwest-regular.otf);
-}
-@font-face {
-  font-family: "pinyon";
-  src: url(/script/PinyonScript-Regular.ttf);
-}  */
-
 .nav {
   /* background-color: #ffffff; */
   background-color: transparent !important;
@@ -50,18 +27,9 @@
 body {
   margin: 0;
   padding: 0;
-  /* font-family: "PP Neue Montreal Book"; */
-    font-family: "PP Neue Montreal Book";
-  /* font-family: "Junicode"; */
+  font-family: "PP Neue Montreal Book";
   font-size: 1.2vw;
   cursor: url('icons/flowercursor.png'), auto;
-}
-.subtext{
-  font-family: "PP Neue Montreal italic";
-}
-.projectindex{
-  font-family: "PP Neue Montreal italic";
-  text-decoration: underline;
 }
 
 .left-section {
@@ -100,8 +68,9 @@ body {
 
 .myname {
   text-align: left;
-  /* font-size: 1.5rem; */
-  /* font-family: "PPmondwest";
+  /* font-size: 18; */
+  /* font-family: "PPmondwest"; */
+  /* color:blue; */
   /* font-family: "PPmondwest"; */
 }
 
@@ -141,6 +110,7 @@ body {
   flex-direction: column;
   overflow-y: scroll;
   height: auto;
+  /* padding: 1%; */
 }
 
 .right-scroll {
@@ -309,20 +279,19 @@ img {
   text-decoration: none;
 }
 .linkline {
-  font-family: "Timezone";
-  /* color: #3235ff; */
+  color: #32B5FF;
+  font-size: 16px;
 }
 a{
   text-decoration: none;  
   color: black;
 }
 a:hover{
-  color: #0008ff;
+  color: #32B5FF;
 }
 .resumeimg{
   width: 30%;
 }
-
 .scrollable {
   overflow-y: auto; /* Enable vertical scrolling */
   /* display: flex; */
@@ -383,24 +352,6 @@ a:hover{
   align-items: center;
 }
 
-
-#popup-container {
-  display: none;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(0, 0, 0, 0.7);
-  border-radius: 50%;
-  padding: 20px;
-  text-align: center;
-  color: #fff;
-}
-
-#popup-content {
-  max-width: 300px;
-  margin: 0 auto;
-}
 
 label {
   display: block;
