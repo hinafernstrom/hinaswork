@@ -8,6 +8,11 @@
   font-family: "PP Neue Montreal italic";
   src: url(/italic/PPNeueMontreal-Italic.otf);
 }
+@font-face {
+  font-family: 'newwoff'; /* Assign a custom font name */
+  src: url('5f82d50f351f57cf28db92640688fb43.woff2') format('woff');
+  /* You can also specify additional font formats for cross-browser compatibility */
+}
 .nav {
   /* background-color: #ffffff; */
   background-color: transparent !important;
@@ -27,8 +32,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "PP Neue Montreal Book";
-  font-size: 1.2vw;
+  font-family: "newwoff";
+  font-size: 1.1vw;
   cursor: url('icons/flowercursor.png'), auto;
 }
 

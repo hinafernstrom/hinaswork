@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: "PP Neue Montreal Book";
   src: url(/PPNeueMontreal-Medium.otf);
@@ -8,41 +7,24 @@
   font-family: "PP Neue Montreal italic";
   src: url(PPNeueMontreal-Italic.otf);
 }
-
 @font-face {
   font-family: "Timezone";
   src: url(HALTimezoneTest-Regular.otf);
 }
-
-/* @font-face {
-  font-family: "Junicode";
-  src: url(/serif/Junicode.ttf);
-}
 @font-face {
-  font-family: "Junicodeitalic";
-  src: url(/serif/Junicode-Italic.ttf);
-} */
-/* @font-face {
-  font-family: "PPmondwest";
-  src: url(/glitchfont/PPmondwest-regular.otf);
+  font-family: 'newwoff'; /* Assign a custom font name */
+  src: url('5f82d50f351f57cf28db92640688fb43.woff2') format('woff');
+  /* You can also specify additional font formats for cross-browser compatibility */
 }
-@font-face {
-  font-family: "pinyon";
-  src: url(/script/PinyonScript-Regular.ttf);
-}  */
-
 .nav {
-  /* background-color: #ffffff; */
   background-color: transparent !important;
   color: #000000;
   width: 100vw;
   height: 7vh;
   align-items: center;
   z-index: 100;
-  /* overflow-x: scroll; */
   display: flex;
   justify-content: space-between;
-  /* padding: 10px;  */
   padding-top: 5px; 
   position: relative;
 }
@@ -50,18 +32,9 @@
 body {
   margin: 0;
   padding: 0;
-  /* font-family: "PP Neue Montreal Book"; */
-    font-family: "PP Neue Montreal Book";
-  /* font-family: "Junicode"; */
-  font-size: 1.2vw;
+  font-family: "newwoff";
+  font-size: 1.1vw;
   cursor: url('icons/flowercursor.png'), auto;
-}
-.subtext{
-  font-family: "PP Neue Montreal italic";
-}
-.projectindex{
-  font-family: "PP Neue Montreal italic";
-  text-decoration: underline;
 }
 
 .left-section {
@@ -90,19 +63,9 @@ body {
   text-decoration: none;
 
 }
-
-.titlename{
-  /* padding-top: 10vh; */
-  text-align: left;
-  width: 17vw;
-  overflow: visible !important;
-}
-
 .myname {
   text-align: left;
-  /* font-size: 1.5rem; */
-  /* font-family: "PPmondwest";
-  /* font-family: "PPmondwest"; */
+  font-size: 1.2vw;
 }
 
 .myname2 {
@@ -147,7 +110,6 @@ body {
   display: flex;
   width: 20%;
   flex-direction: column;
-  /* color: mediumblue; */
   overflow-y: scroll;
   height: auto;
   padding: 1%;
@@ -308,10 +270,6 @@ img {
   margin-bottom: 10px;
   text-decoration: none;
 }
-.linkline {
-  font-family: "Timezone";
-  /* color: #3235ff; */
-}
 a{
   text-decoration: none;  
   color: black;
@@ -381,25 +339,6 @@ a:hover{
   height: auto;
   text-align: center;
   align-items: center;
-}
-
-
-#popup-container {
-  display: none;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(0, 0, 0, 0.7);
-  border-radius: 50%;
-  padding: 20px;
-  text-align: center;
-  color: #fff;
-}
-
-#popup-content {
-  max-width: 300px;
-  margin: 0 auto;
 }
 
 label {
