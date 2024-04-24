@@ -56,4 +56,5 @@ document.addEventListener('DOMContentLoaded', function () {
   initializeCarousel('eigth-carousel', '.left-section-image');
   initializeCarousel('ninth-carousel', '.left-section-image');
   initializeCarousel('tenth-carousel', '.left-section-image');
+  initializeCarousel('eleventh-carousel', '.left-section-image');
 });

@@ -16,6 +16,12 @@
   src: url('5f82d50f351f57cf28db92640688fb43.woff2') format('woff');
   /* You can also specify additional font formats for cross-browser compatibility */
 }
+/* second-line :hover{
+  text-decoration: underline;
+}
+projecttitle :hover{
+  text-decoration: underline;
+} */
 .nav {
   background-color: transparent !important;
   color: #000000;
@@ -35,6 +41,10 @@ body {
   font-family: "newwoff";
   font-size: 1.1vw;
   cursor: url('icons/flowercursor.png'), auto;
+}
+.projectinfo{
+  margin-block-end: 0;
+  margin-block-start: 0;
 }
 
 .left-section {
@@ -68,17 +78,6 @@ body {
   font-size: 1.2vw;
 }
 
-.myname2 {
-  text-align: left;
-}
-
-.mylink {
-  text-decoration: none;
-  text-align: right;
-  color: #FF91F6;
-  transition: color 0.3s ease, background-color 0.3s ease;
-}
-
 .nav2 > * {
   margin: 0 1%;
 }
@@ -92,10 +91,6 @@ body {
   text-decoration: none;
   /* color: black; */
   transition: color 0.3s ease, background-color 0.3s ease;
-}
-
-.home2:hover {
-  color: #FF91F6;
 }
 
 .left-scroll {
@@ -113,6 +108,7 @@ body {
   overflow-y: scroll;
   height: auto;
   padding: 1%;
+  
 }
 
 img {
@@ -205,6 +201,7 @@ img {
 .ninth-section img {
   height: auto;
 }
+
 .tenth-section {
   background-color: #ffffff;
   padding: 1%;
@@ -213,6 +210,16 @@ img {
 }
 
 .tenth-section img {
+  height: auto;
+}
+.eleventh-section {
+  background-color: #ffffff;
+  padding: 1%;
+  justify-content: center;
+  align-items: center;
+}
+
+.eleventh-section img {
   height: auto;
 }
 
@@ -247,12 +254,14 @@ img {
   padding: 1%;
   text-align: left; 
 }
+
 .inforightwrapper {
   overflow-y: scroll;
   flex: 2;
   background-color: #ffffff;
   padding: 1%;
 }
+
 .nav2 {
   background-color: #ffffff;
   color: #000000;
@@ -270,20 +279,34 @@ img {
   margin-bottom: 10px;
   text-decoration: none;
 }
+
 a{
-  text-decoration: none;  
+  /* text-decoration: none;   */
   color: black;
 }
-a:hover{
-  color: #0008ff;
+
+/* a:hover{
+  text-decoration: underline;
+  transition: opacity 0.3s ease;
+} */
+
+.left-scroll a:hover,
+.right-scroll a:hover {
+  text-decoration: underline;
+  transition: opacity 0.3s ease;
+  color: black;
+}
+.right-scroll a {
+  /* This rule targets all <a> tags inside .right-scroll */
+  text-decoration: none; /* Remove underline by default */
+  color: black; /* Set the default color */
 }
 .resumeimg{
   width: 30%;
 }
 
 .scrollable {
-  overflow-y: auto; /* Enable vertical scrolling */
-  /* display: flex; */
+  overflow-y: auto;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -332,7 +355,6 @@ a:hover{
 .byme{
   font-size: 1vw;
 }
-
 
 .jayfaihtml {
   width: 80vw;

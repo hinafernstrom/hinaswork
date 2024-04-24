@@ -291,8 +291,15 @@ a{
   text-decoration: none;  
   color: black;
 }
-a:hover{
-  color: #32B5FF;
+.myname:hover {
+  text-decoration: underline;
+  color: black;
+  transition: opacity 0.3s ease;
+}
+.right-scroll a {
+  /* This rule targets all <a> tags inside .right-scroll */
+  text-decoration: none; /* Remove underline by default */
+  color: black; /* Set the default color */
 }
 .resumeimg{
   width: 30%;
