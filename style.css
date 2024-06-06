@@ -285,10 +285,9 @@ a{
   color: black;
 }
 
-/* a:hover{
-  text-decoration: underline;
-  transition: opacity 0.3s ease;
-} */
+html {
+  scroll-behavior: smooth;
+}
 
 .left-scroll a:hover,
 .right-scroll a:hover {
