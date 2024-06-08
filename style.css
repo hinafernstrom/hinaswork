@@ -16,12 +16,10 @@
   src: url('5f82d50f351f57cf28db92640688fb43.woff2') format('woff');
   /* You can also specify additional font formats for cross-browser compatibility */
 }
-/* second-line :hover{
-  text-decoration: underline;
-}
-projecttitle :hover{
-  text-decoration: underline;
+/* .arrow {
+  font-size: 34px;
 } */
+
 .nav {
   background-color: transparent !important;
   color: #000000;
@@ -220,6 +218,15 @@ img {
 }
 
 .eleventh-section img {
+  height: auto;
+}
+.twelfth-section {
+  background-color: #ffffff;
+  padding: 1%;
+  justify-content: center;
+  align-items: center;
+}
+.twelfth-section img {
   height: auto;
 }
 
