@@ -387,3 +387,26 @@ button {
   border: none;
   cursor: pointer;
 }
+/* Intro section styles */
+.intro-section {
+  display: none;
+  padding: 1%;
+  background-color: #ffffff;
+  font-size: 1.2em;
+}
+
+.intro-section p {
+  margin: 0.5em 0;
+}
+/* Media query to hide .right-scroll and adjust .left-scroll on smaller screens */
+@media (max-width: 600px) {
+  .right-scroll {
+    display: none;
+  }
+  .left-scroll {
+    width: 100%;
+  }
+  .intro-section {
+    display: block;
+  }
+}
