@@ -46,6 +46,8 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   // Initialize carousels 
+  initializeCarousel('fourteen-carousel', '.left-section-image');
+  initializeCarousel('thirteen-carousel', '.left-section-image');
   initializeCarousel('twelfth-carousel', '.left-section-image');
   initializeCarousel('first-carousel', '.left-section-image');
   initializeCarousel('second-carousel', '.left-section-image');

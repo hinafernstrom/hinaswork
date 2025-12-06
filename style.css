@@ -229,6 +229,24 @@ img {
 .twelfth-section img {
   height: auto;
 }
+.thirteen-section {
+  background-color: #ffffff;
+  padding: 1%;
+  justify-content: center;
+  align-items: center;
+}
+.thirteen-section img {
+  height: auto;
+}
+.fourteen-section {
+  background-color: #ffffff;
+  padding: 1%;
+  justify-content: center;
+  align-items: center;
+}
+.fourteen-section img {
+  height: auto;
+}
 
 .parent-section {
   display: flex;
