@@ -26,6 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
     return currentIndex;
   }
 
+  
   // Function to initialize a carousel
   function initializeCarousel(carouselId, imageSelector, mediaElementsSelector) {
     const carousel = document.getElementById(carouselId);
