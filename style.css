@@ -1,25 +1,20 @@
 @font-face {
   font-family: "PP Neue Montreal Book";
-  src: url(/PPNeueMontreal-Medium.otf);
+  src: url(/PPNeueMontreal-Book);
 }
 
 @font-face {
   font-family: "PP Neue Montreal italic";
   src: url(PPNeueMontreal-Italic.otf);
-}
+} */
 @font-face {
   font-family: "Timezone";
   src: url(HALTimezoneTest-Regular.otf);
-}
+} 
 @font-face {
-  font-family: 'newwoff'; /* Assign a custom font name */
+  font-family: 'newwoff';
   src: url('5f82d50f351f57cf28db92640688fb43.woff2') format('woff');
-  /* You can also specify additional font formats for cross-browser compatibility */
-}
-/* .arrow {
-  font-size: 34px;
-} */
-
+} 
 .nav {
   background-color: transparent !important;
   color: #000000;
@@ -246,6 +241,15 @@ img {
   align-items: center;
 }
 .fourteen-section img {
+  height: auto;
+}
+.fifteen-section {
+  background-color: #ffffff;
+  padding: 1%;
+  justify-content: center;
+  align-items: center;
+}
+.fifteen-section img {
   height: auto;
 }
 

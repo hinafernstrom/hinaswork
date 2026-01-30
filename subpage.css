@@ -1,7 +1,7 @@
 
 @font-face {
   font-family: "PP Neue Montreal Book";
-  src: url(/PPNeueMontreal-Medium.otf);
+  src: url(/FONTS/PPNeueMontreal-Book.otf);
 }
 
 @font-face {
@@ -9,9 +9,8 @@
   src: url(/italic/PPNeueMontreal-Italic.otf);
 }
 @font-face {
-  font-family: 'newwoff'; /* Assign a custom font name */
+  font-family: 'newwoff';
   src: url('5f82d50f351f57cf28db92640688fb43.woff2') format('woff');
-  /* You can also specify additional font formats for cross-browser compatibility */
 }
 .nav {
   /* background-color: #ffffff; */
